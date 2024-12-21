@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="file:///E:/PROJECTS/Datepicker/calendar.png">
+    <title>Static Datepicker UI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 75vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        .datepicker-container {
+            position: relative;
+            width: 250px;
+        }
+
+        .datepicker-input {
+            width: 100%;
+            padding: 10px;
+            font-size: 15px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 8px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .datepicker-button {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+        }
+
+        .datepicker-button img {
+            width: 30px;
+            height: 30px;
+            color: #666;
+        }
+
+        .datepicker-dropdown {
+            position: absolute;
+            top: 45px;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            z-index: 10;
+        }
+
+        .datepicker-dropdown span {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+            cursor: pointer;
+        }
+
+        .datepicker-dropdown span:hover {
+            background-color: #007bff;
+            color: white;
+            border-color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="datepicker-container">
+    <input type="text" class="datepicker-input" placeholder="dd/mm/yyyy">
+    <button class="datepicker-button">
+        <img src="file:///E:/PROJECTS/Datepicker/calendar.png" alt="Calendar Icon">
+    </button>
+    <div class="datepicker-dropdown">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>5</span>
+        <span>6</span>
+        <span>7</span>
+        <span>8</span>
+        <span>9</span>
+        <span>10</span>
+        <span>11</span>
+        <span>12</span>
+        <span>13</span>
+        <span>14</span>
+        <span>15</span>
+        <span>16</span>
+        <span>17</span>
+        <span>18</span>
+        <span>19</span>
+        <span>20</span>
+        <span>21</span>
+        <span>22</span>
+        <span>23</span>
+        <span>24</span>
+        <span>25</span>
+        <span>26</span>
+        <span>27</span>
+        <span>28</span>
+        <span>29</span>
+        <span>30</span>
+        <span>31</span>
+    </div>
+</div>
+
+</body>
+</html>
